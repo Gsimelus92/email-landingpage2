@@ -1,0 +1,121 @@
+
+
+
+body {
+
+}
+.img-overlay {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg?cs=srgb&dl=pexels-sebastian-palomino-1955134.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.overlay {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.overlay-text {
+  padding:50px 100px 50px 100px;
+  color:white;
+
+}
+
+.overlay-text h3{
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.overlay-text h3{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 150px
+}
+
+.overlay-text p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.header-title{
+  font-size: 50px;
+}
+.header-info{
+  width:600px;
+  margin: 0;
+}
+
+.header-info span{
+  color:#00f0ff;
+}
+
+.header-info h1{
+  font-size: 50px;
+}
+
+.header-info p{
+  font-size: 20px;
+}
+
+.header h5{
+  font-size: 14px;
+}
+
+.inbox form{
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -400px;
+  display: inline-block;
+  background: rgb(255,255,255,0.2);
+  padding:50px 40px 50px 40px;
+}
+
+.inbox label{
+  display: block;
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-weight: 800;
+
+}
+.inbox button{
+  display: block;
+}
+
+.inbox label:nth-child(2){
+  margin-left: 60px;
+  margin-bottom: 25px;
+  color:#00f0ff;
+}
+
+.inbox input{
+    margin-left: 20px;
+    padding: 5px 55px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.inbox button{
+  margin-left: 20px;
+  padding: 20px 42px;
+  border-radius: 2px;
+  border: none;
+  background-color: #00f0ff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.inbox button:hover{
+  background-color:#00c3ff;
+  transition: 0.3s;
+  cursor: pointer;
+}
